@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+html {
+  background: #f9f9f9; }
+
+header {
+  width: 100%;
+  padding: 5vw 20vw;
+  background: #c8161d;
+  text-align: center; }
+  header a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 7vw;
+    font-weight: bold;
+    color: white; }
+
+.content {
+  width: 100%;
+  padding: 0 10px; }
+  .content ul {
+    width: 100%;
+    padding-top: 10px; }
+    .content ul li {
+      width: 100%;
+      padding: 15px 10px;
+      background: white;
+      border-bottom: 1px solid #ccc; }
+      .content ul li input {
+        outline: none;
+        border: 0; }
+
+.p3 {
+  padding: 20px 0;
+  color: #818181; }
+  .p3 input {
+    vertical-align: middle;
+    padding-right: 10px; }
+  .p3 span {
+    color: orange; }
+
+.p4 {
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  padding: 15px 0;
+  margin-top: 15px;
+  background: #c8161d;
+  text-align: center; }
+
+.p7 {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px; }
+  .p7 a {
+    color: red; }
+
+.p5 {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #818181; }
+  .p5 span {
+    margin-left: 30px;
+    color: #ccc; }
+
+.p6 {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  color: #ff6f00; }
+
+.p8 {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center; }
+
+/*# sourceMappingURL=w_denglu.css.map */

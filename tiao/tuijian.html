@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/tuijian.css">
+</head>
+<body>
+<div class="fch_tuijian" ng-controller="tuijian">
+    <div class="header">
+        <div></div>
+        <div><img src="../img/z_map019.png" alt=""></div>
+        <div><img src="../img/search.png" alt=""></div>
+    </div>
+
+    <div class="banner">
+        <img src="../img/img_main_5.png" alt="">
+    </div>
+
+    <hr size="15" color="#F4F4F4">
+
+    <div class="jieshao" ng-repeat="item in data.data.jieshao">
+        <div>
+            <div><img ng-src="{{item.tu}}" alt=""></div>
+            <div>
+                <h4 ng-bind="item.name"></h4>
+                <span ng-bind="item.city"></span>
+                <div>
+                    <img ng-src="{{item.img1}}" alt="" ng-click="on1($index)">
+                    <img ng-src="{{item.img2}}" alt="" ng-click="on2($index)">
+                </div>
+            </div>
+        </div>
+        <p ng-bind="item.p"></p>
+    </div>
+
+    <div class="dianhua">
+        <p>客服电话：400-668-1039 <span>(8:30 - 22:30)</span></p>
+        <p>添加知己网到主屏</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/liuyan.css">
+</head>
+<body>
+<div class="fch_liuyan" ng-controller="liuyan">
+    <div class="header">留言</div>
+
+    <ul class="bar" id="bar">
+        <li ng-click="bar_li_change($index)" ng-class="{true:'bar_li_on',false:'bar_li_in'}[item.on]" ng-repeat="item in bar_li_arr" ng-bind="item.txt"></li>
+    </ul>
+
+    <div class="tab fch_liuyan_qiehuan">
+        <div>
+            <input type="checkbox">
+            <span>全选</span>
+            <span>选中删除</span>
+        </div>
+        <div>
+            <input type="button" value="1">
+        </div>
+        <div class="dianhua">
+            <p>客服电话：400-668-1039 <span>(8:30 - 22:30)</span></p>
+            <p>添加知己网到主屏</p>
+        </div>
+    </div>
+
+    <div class="tab2 fch_liuyan_qiehuan">
+        <div class="col" ng-repeat="item in res.data.liuyan">
+            <div>
+                <div><input type="checkbox" ng-checked="item.ischecked" ng-click="dx($index)"></div>
+                <div><img ng-src="{{item.img}}" alt=""></div>
+                <div>
+                    <p ng-bind="item.name"></p>
+                    <p ng-bind="item.name2"></p>
+                </div>
+            </div>
+            <div><p>06月13日</p><span>></span></div>
+        </div>
+        <div class="xuansha">
+            <input type="checkbox" ng-click="qx()">
+            <span>全选</span>
+            <span ng-click="xs()">选中删除</span>
+        </div>
+    </div>
+
+    <div class="tab3 fch_liuyan_qiehuan">
+        <div>
+            <input type="button" value="1">
+        </div>
+        <div class="dianhua">
+            <p>客服电话：400-668-1039 <span>(8:30 - 22:30)</span></p>
+            <p>添加知己网到主屏</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

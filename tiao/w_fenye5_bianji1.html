@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		  <meta charset="UTF-8">
+    <!--视口  设备宽度  初始缩放比例  最小缩放比例  最大缩放比例  用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <!--优先使用IE最新版本和chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--禁止浏览器自动的识别  电话号码-meail-->
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <!--是否启用Web全屏-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!--设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="stylesheet" type="text/css" href="../css/w_fenye5_bianji1.css"/>
+		<script src="../js/angular.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+			<div class="w_fenye5_bianji1" ng-controller="my1">
+				<div class="w_header">
+						<p>
+							<img src="../img1/back1.png"/>
+						</p>
+						<p>基本档案</p>
+				</div>
+				<div class="w_content">
+					<ul>
+						
+						<li>
+							<span>性别</span>
+							<select name="">
+								<option>男</option>
+								<option>女</option>
+							
+							</select>
+						</li>
+						<li>
+							<span>年龄</span>
+							<select name="">
+									<option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25" selected="selected">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option><option value="49">49</option><option value="50">50</option><option value="51">51</option><option value="52">52</option><option value="53">53</option><option value="54">54</option><option value="55">55</option><option value="56">56</option><option value="57">57</option><option value="58">58</option><option value="59">59</option><option value="60">60</option><option value="61">61</option><option value="62">62</option><option value="63">63</option><option value="64">64</option><option value="65">65</option><option value="66">66</option><option value="67">67</option><option value="68">68</option><option value="69">69</option><option value="70">70</option><option value="71">71</option><option value="72">72</option><option value="73">73</option><option value="74">74</option><option value="75">75</option><option value="76">76</option>
+							</select>
+						</li>
+						<li>
+							<span>省份</span>
+							<select name="">
+							<option value="北京" selected="selected">北京</option>
+									<option value="广东">广东</option>
+									<option value="上海">上海</option>
+									<option value="江苏">江苏</option>
+									<option value="浙江">浙江</option>
+									<option value="山东">山东</option>
+									<option value="福建">福建</option>
+									<option value="湖南">湖南</option>
+									<option value="四川">四川</option>
+									<option value="湖北">湖北</option>
+									<option value="河南">河南</option>
+									<option value="陕西">陕西</option>
+									<option value="安徽">安徽</option>
+									<option value="河北">河北</option>
+									<option value="重庆">重庆</option>
+									<option value="辽宁">辽宁</option>
+									<option value="广西">广西</option>
+									<option value="云南">云南</option>
+									<option value="新疆">新疆</option>
+									<option value="山西">山西</option>
+									<option value="贵州">贵州</option>
+									<option value="黑龙江">黑龙江</option>
+									<option value="甘肃">甘肃</option>
+									<option value="内蒙古">内蒙古</option>
+									<option value="吉林">吉林</option>
+									<option value="天津">天津</option>
+									<option value="海南">海南</option>
+									<option value="江西">江西</option>
+									<option value="宁夏">宁夏</option>
+									<option value="青海">青海</option>
+									<option value="西藏">西藏</option>
+									<option value="香港">香港</option>
+									<option value="台湾">台湾</option>
+									<option value="澳门">澳门</option>
+							</select>
+						</li>
+						<li>
+							<span>城市</span>
+							<select name="">
+								 <option value="0">城市</option>
+              					 <option value="东城区">东城区</option><option value="西城区">西城区</option><option value="崇文区">崇文区</option><option value="宣武区">宣武区</option><option value="朝阳区">朝阳区</option><option value="丰台区">丰台区</option><option value="石景山区">石景山区</option><option value="海淀区">海淀区</option><option value="门头沟区">门头沟区</option><option value="房山区">房山区</option><option value="通州区">通州区</option><option value="顺义区">顺义区</option><option value="昌平区">昌平区</option><option value="大兴区">大兴区</option><option value="怀柔区">怀柔区</option><option value="平谷区">平谷区</option><option value="密云县">密云县</option><option value="延庆县">延庆县</option></select></td>
+							</select>
+						</li>
+						<li>
+							<span>身高</span>
+							<select name="">
+								<option value="0">请选择</option>
+				                <option value="1">155公分以下</option>
+				                <option value="2">155－160公分</option>
+				                <option value="3">160－165公分</option>
+				                <option value="4">165－170公分</option>
+				                <option value="5">170－175公分</option>
+				                <option value="6" selected="selected">175－180公分</option>
+				                <option value="7">180－185公分</option>
+				                <option value="8">185公分以上</option>
+							</select>
+						</li>
+						<li>
+							<span>体型</span>
+							<select name="">
+								<option value="0">请选择</option>
+				                <option value="01">清瘦</option>
+				                <option value="02">苗条</option>
+				                <option value="03" selected="selected">中等</option>
+				                <option value="04">健壮</option>
+				                <option value="05">略胖</option>
+				                <option value="06">匀称</option>
+				                <option value="07">瘦小</option>
+				                <option value="08">矮胖</option>
+				                <option value="09">大个</option>
+				                <option value="10">肥胖</option>
+				                <option value="11">性感</option>
+							</select>
+						</li>
+						<li>
+							<span>职业</span>
+							<select name="">
+								 <option value="0">请选择</option>
+				                <option value="01">法律工作者</option>
+				                <option value="02">财务人员</option>
+				                <option value="03">建筑师</option>
+				                <option value="04">工程师</option>
+				                <option value="05" selected="selected">计算机技术人员</option>
+				                <option value="06">媒体从业人员</option>
+				                <option value="07">研究人员</option>
+				                <option value="08">军人</option>
+				                <option value="09">演艺工作者</option>
+				                <option value="10">医生护士</option>
+				                <option value="11">教师教授</option>
+				                <option value="12">旅游从业人员</option>
+				                <option value="13">经理人</option>
+				                <option value="14">公务员</option>
+				                <option value="15">营销人</option>
+				                <option value="16">行政人事</option>
+				                <option value="17">公司员工</option>
+				                <option value="18">投资管理</option>
+				                <option value="19">大学生</option>
+				                <option value="20">硕士博士</option>
+				                <option value="21">私营业主</option>
+				                <option value="22">老总老板</option>
+				                <option value="23">自由职业</option>
+				                <option value="24">妈咪宝贝</option>
+				                <option value="25">文艺工作者</option>
+				                <option value="26">设计师</option>
+				                <option value="27">培训师</option>
+				                <option value="28">摄影师</option>
+				                <option value="29">理财师</option>
+				                <option value="30">美容师</option>
+				                <option value="31">模特</option>
+				                <option value="32">警察</option>
+				                <option value="33">司机</option>
+				                <option value="34">文秘</option>
+				                <option value="35">翻译</option>
+				                <option value="36">义工</option>
+				                <option value="37">技工</option>
+				                <option value="38">外来工</option>
+				                <option value="39">退休</option>
+				                <option value="40">无业</option>
+				                <option value="41">其它职业</option>
+							</select>
+						</li>
+						
+						
+						<li>
+							<span>目前你是</span>
+							<select name="">
+								<option value="0">请选择</option>
+				                <option value="4">已婚</option>
+				                <option value="1" selected="selected">单身</option>
+				                <option value="2">离异</option>
+				                <option value="5">分居</option>
+				                <option value="3">丧偶</option>
+				                <option value="6">恋爱中</option>
+							</select>
+						</li>
+						<li>
+							<span>从事的行业</span>
+							<select name="">
+								<option value="01" selected="">IT信息</option>
+								<option value="02">建筑房产</option>
+								<option value="03">汽车</option>
+								<option value="04">旅游酒店</option>
+								<option value="05">教育培训</option>
+								<option value="06">媒体出版</option>
+								<option value="07">餐饮休闲</option>
+								<option value="08">传媒娱乐</option>
+								<option value="09">广告会展</option>
+								<option value="10">建材家装</option>
+								<option value="11">物流业</option>
+								<option value="12">物管行业</option>
+								<option value="13">数码家电</option>
+								<option value="14">服装业</option>
+								<option value="15">礼品珠宝业</option>
+								<option value="16">家政家教</option>
+								<option value="17">电子制造</option>
+								<option value="18">食品饮料</option>
+								<option value="19">印刷包装</option>
+								<option value="20">金属制造</option>
+								<option value="21">能源化工</option>
+								<option value="22">金融保险</option>
+								<option value="23">证券投资</option>
+								<option value="24">商场零售</option>
+								<option value="25">美容美体</option>
+								<option value="26">医疗保健</option>
+								<option value="27">公共事务</option>
+								<option value="28">外贸出口</option>
+								<option value="29">邮电通讯</option>
+								<option value="30">营销策划</option>
+								<option value="31">财会行业</option>
+								<option value="32">科学研究</option>
+								<option value="33">交通运输</option>
+								<option value="34">园林绿化</option>
+								<option value="35">其他行业</option>
+							</select>
+						</li>
+						
+						<li>
+							<span>星座</span>
+							<select name="">
+								<option value="0">请选择</option>
+				                <option value="4">已婚</option>
+				                <option value="1" selected="selected">单身</option>
+				                <option value="2">离异</option>
+				                <option value="5">分居</option>
+				                <option value="3">丧偶</option>
+				                <option value="6">恋爱中</option>
+							</select>
+						</li>
+						
+						<li>
+							<span>教育程度</span>
+							<select name="">
+								<option value="1">高中以下</option>
+								<option value="2">高中</option>
+								<option value="3">中专</option>
+								<option value="4" selected="">大专</option>
+								<option value="5">本科</option>
+								<option value="6">硕士</option>
+								<option value="7">博士</option>
+							</select>
+						</li>
+						
+						<li>
+							<span>血型</span>
+							<select name="">
+								 <option value="1">A</option>
+								  <option value="2">B</option>
+								  <option value="3">AB</option>
+								  <option value="4">O</option>
+								  <option value="5">未知</option>
+							</select>
+						</li>
+						
+						<li>
+							<span>月收入</span>
+							<select name="">
+								 <option value="0">请选择</option>
+				                <option value="1">1000以下</option>
+				                <option value="2">1000－2000</option>
+				                <option value="3">2000－4000</option>
+				                <option value="4">4000－6000</option>
+				                <option value="5">6000－10000</option>
+				                <option value="6" selected="selected">10000－25000</option>
+				                <option value="7">25000－45000</option>
+				                <option value="8">45000以上</option>
+							</select>
+						</li>
+						
+						
+						
+						
+						
+					</ul>
+					
+					
+					<ul class="w_yin">
+						
+						<li>
+							<div>
+								<span>个性</span>
+								<p  class="w_dian">
+									<input type="text" placeholder="请选择"/>
+									<!--<img src="../img1/map_up_img0093.gif"/>-->
+								</p>
+							</div>
+							<div class="yin">
+								4654654654fdfd
+							</div>
+						</li>
+						<li>
+							<div>
+								<span>朋友形容我</span>
+								<p  class="w_dian">
+									<input type="text" placeholder="请选择"/>
+									<!--<img src="../img1/map_up_img0093.gif"/>-->
+								</p>
+							</div>
+							<div class="yin">
+								4654654654fdfd
+							</div>
+						</li>
+						<li>
+							<div>
+								<span>我的优势</span>
+								<p  class="w_dian">
+									<input type="text" placeholder="请选择"/>
+									<!--<img src="../img1/map_up_img0093.gif"/>-->
+								</p>
+							</div>
+							<div class="yin">
+								4654654654fdfd
+							</div>
+						</li>
+						<li>
+							<div>
+								<span>我的兴趣爱好</span>
+								<p  class="w_dian">
+									<input type="text" placeholder="请选择"/>
+									<!--<img src="../img1/map_up_img0093.gif"/>-->
+								</p>
+							</div>
+							<div class="yin">
+								4654654654fdfd
+							</div>
+						</li>
+						<li>
+							<div id="w_biaoti">
+								<span>标题</span>
+								<p  class="w_dian">
+									<input type="text"/>
+									<!--<img src="../img1/map_up_img0093.gif"/>-->
+								</p>
+							</div>
+							<div class="yin">
+								4654654654fdfd
+							</div>
+						</li>
+						
+					</ul>	
+					
+					
+					<ul>
+						<li class="w_jieshao">
+							
+								<span>自我介绍</span>
+								<textarea>
+									方式范德萨范德萨李开复绝对是垃圾分类看电视剧福建省的开放接口
+								</textarea>
+								<a href="#">保存</a>
+						
+						</li>
+						<li class="w_wei">
+							<p>
+				
+								客服电话：400-668-1039<span>(8:30 - 22:30)</span>
+							</p>
+							
+							<a href="#">
+								添加知己网到主屏
+							</a>
+						</li>
+					</ul>
+						
+						
+					
+				</div>
+			</div>
+	</body>
+	<script type="text/javascript">
+	
+	 var app = angular.module("myApp",[]);
+		app.controller("my1",function($scope,$timeout,$http){
+			
+//		    $http({
+//		        method:"get",
+//		        url:"../data/w_fenye5_bianji.json"
+//		    }).then(function(res){
+//		        $scope.bianji1 = res.data.bianji1
+//		        $scope.bianji11 = res.data.bianji1.a1[0]
+//		       debugger;
+//		    })
+		})
+	</script>
+</html>

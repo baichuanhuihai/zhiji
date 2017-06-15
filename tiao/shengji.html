@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/shengji.css">
+</head>
+<body>
+<div class="fch_shengji">
+    <div class="header">
+        <div></div>
+        <div>升级</div>
+        <div><img src="../img/shuaxin.png" alt=""></div>
+    </div>
+
+    <div class="my">我的VIP状态 : <span>普通会员</span></div>
+    <div class="my">我的心币 : <span>0枚</span></div>
+    
+    <div class="vip" ng-repeat="item in response.data.vip">
+        <a href="zhifubao/{{item.zhifu}}">
+            <img ng-src="{{item.img}}" alt="">
+            <div>
+                <p ng-bind="item.p"></p>
+                <a href="">{{item.a}}<span ng-bind="item.money"></span></a>
+            </div>
+        </a>
+    </div>
+
+    <div class="dianhua">
+        <p>客服电话：400-668-1039 <span>(8:30 - 22:30)</span></p>
+        <p>添加知己网到主屏</p>
+    </div>
+</div>
+</body>
+</html>

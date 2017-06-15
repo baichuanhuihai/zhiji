@@ -1,0 +1,312 @@
+ @charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+html{
+    background: #f1f1f1;
+}
+.w_fenye5_bianji1{
+    width: 100%;
+    height: 100%;
+    .w_header{
+        width: 100%;
+        padding:3vw 4vw;
+        background: #c8161d;
+        display: flex;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+       p{
+            text-decoration: none;
+            font-size: 7vw;
+            font-weight: bold;
+            color: white;
+            img{
+                width: 10vw;
+                vertical-align: middle;
+            }
+        }
+        p:first-child{
+            position: absolute;
+            left: 5vw;
+            top: 2vw;
+        }
+        p:last-child{
+            margin: 0 auto;
+        }
+    }
+    .w_content{
+        width: 100%;
+        margin-top: 2vw;
+        ul:first-child{
+            width: 100%;
+            padding:0 2vw;
+            background: white;
+            >li{
+                width: 100%;
+                padding: 4vw 0;
+                font-size: 4vw;
+                border-bottom: 1px solid #ccc;
+                    display: flex;
+                    color: #5E5E5E;
+                    font-weight: bold;
+          
+                    span{
+                        display: block;
+                        width: 40%;
+                        text-align: left;
+                    }
+                    select{
+                         color: #5E5E5E;
+                         width: 60%;
+                         padding-left: 20vw;
+                         border: 0;
+//                       font-size: 3vw;
+    //                   outline: none;
+                    }
+                    >p{
+                        input{
+                             color: #5E5E5E;
+                            border: 0;
+                            text-align: right;
+                        }
+                        margin-left: 6vw;
+                    }
+                    
+              
+             
+            }
+            li:first-child{
+                select{
+                     width: 70%;
+                     padding-left: 15vw;
+                }
+            }
+        }
+        
+        ul:nth-child(2){
+             width: 100%;
+             padding:0 2vw;
+             background: white;
+             margin-top: 2vw;
+            
+             >li{
+                  width: 100%;
+                  font-size: 4vw;
+                  border-bottom: 1px solid #ccc;
+                  padding-bottom: 4vw ;
+                   color: #5E5E5E;
+                   font-weight: bold;
+                 >div:first-child{
+                      display: flex;
+                      margin-top: 0;
+                      padding: 0;
+                         span{
+                              width: 50%;
+                              text-align: left;
+                          }
+                        
+                        >p{
+             
+                            width: 50%;
+                              input{
+                                  width: 95%;
+                                 border: 0;
+                                  color: #5E5E5E;
+                                 text-align:right;
+
+                              }
+                             
+                       }
+                       
+                  }
+             
+               >div:last-child{
+                 
+                    width: 100%;
+                    height: 200px;
+                    background: red;
+                    margin-top: 20px;
+                    display: none;
+               }
+            }
+          
+         }
+        
+        
+        
+    }
+}
+
+#w_biaoti{
+       span{
+            padding-top: 5px;
+       }
+       p{
+            width: 237px;
+            input{
+                display: block;
+                height: 30px;
+                border: 1px solid #ccc;
+                text-align: left;
+                width: 237px;
+                 margin-left: -50px;
+            }
+      }
+}
+.w_jieshao{
+    width: 100%;
+    text-align: center;
+    border-bottom: 0;
+    background: #eeeeee;
+//  padding: 0;
+
+    span{
+        display: block;
+        padding: 5vw 2vw;
+        text-align: left;
+    }
+    textarea{
+        margin: 0 auto;
+        width: 95vw;
+        line-height: 6vw;
+        height: 22vw;
+        
+    }
+    a{
+        display: block;
+        margin: 3vw auto;
+        width: 35vw;
+        height: 13vw;
+        border: 1px solid #ccc;
+        border-radius:10px ;
+        line-height: 13vw;
+        font-size: 5vw;
+  
+         color: #999;
+        font-weight: bold;
+        text-decoration: none;
+        background: #f7f6f8;
+    }
+    
+}
+.w_wei{
+    width: 100%;
+    background: white;
+    padding-bottom: 5vw;
+    p:first-child{
+        padding: 7vw 0;
+        text-align: center;
+        font-size: 4vw;
+        color: #818181;
+        span{
+           margin-left: 10vw;
+           color: #ccc;
+        }
+    }
+    a:last-child{
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        font-size: 5vw;
+        text-align: center;
+        color: #ff6f00;
+    }
+    
+    
+}
+
+.ze2{
+        font-size: 6vw;
+        color: #ff6f00;
+        font-weight: bold;
+        padding: 7vw 0 2vw 0;
+    }
+.ze1{
+        font-size: 6vw;
+        color: #ff6f00;
+        font-weight: bold;
+        padding-top: 7vw;
+        text-align: center;
+}
+
+.zeou{
+            width: 100%;
+            padding:0 2vw;
+            background: white;
+                li{
+                width: 100%;
+                padding: 4vw 0;
+                font-size: 4vw;
+                border-bottom: 1px solid #ccc;
+                display: flex;
+                 color: #5E5E5E;
+                 font-weight: bold;
+                   .p1{
+                        display: block;
+                        width: 30%;
+                        text-align: left;
+                          border: 1px solid;
+                    }
+                  span:first-child{
+                      width: 30%;
+                   
+                  }
+                    >p{
+                        width: 70%; 
+                        text-align: right;
+       
+                        select{
+                             width: 100%;
+                             color: #5E5E5E;
+                             border: 0;
+                              font-size: 4vw;
+                              padding-left: 5vw;
+                             
+                        }
+//                      margin-left: 6vw;
+                    }
+                    .w_xuan{
+                        
+                        select{
+                             width: 13vw;
+                             text-align: center;
+                            
+                            
+                              -webkit-appearance: none;  
+                              -webkit-tap-highlight-color: #fff;  
+//                            outline: 0;  
+//                           border: 0;
+                                    font-size: 5vw;
+                        }
+//                      margin-left: 10vw;
+                    }
+                     
+                        
+                   
+                    .w_xuan1{
+                       
+//                           text-align: center;
+                        select{
+                             width: 20vw;
+                             border: 0;
+                              -webkit-appearance: none;  
+                              -webkit-tap-highlight-color: #fff;  
+                             font-size: 5vw;
+                        }
+//                      margin-left: 18vw;
+                    }
+              
+            }
+//          li:first-child{
+//              select{
+//                   width: 70%;
+//                   padding-left: 15vw;
+//              }
+//          }
+        }

@@ -1,0 +1,17 @@
+{
+	  "fenye2_1":[
+		    {"img":"../img1/z_map011.png","cont":"搜索"},
+		    {"img":"../img1/z_map012.png","cont":"同城约会"},
+		    {"img":"../img1/z_map013.png","cont":"征婚专区"},
+		    {"img":"../img1/z_map014.png","cont":"亲密关系"}
+	  ],
+	  "fenye2_2":[
+	  	 	{"img":"../img1/z_map015.png","cont":"谁看过我"},
+    		{"img":"../img1/z_map016.png","cont":"我看过谁"}
+	  ],
+	   "fenye2_3":[
+	  	 	{"img":"../img1/z_map017.png","cont":"终身会员199元","cont1":"原价499元"}
+    		
+	  ]
+	  
+}

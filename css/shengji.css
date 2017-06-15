@@ -1,0 +1,68 @@
+.fch_shengji .header {
+  background: #C8161D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vw 4vw;
+}
+.fch_shengji .header div:nth-of-type(2) {
+  font-size: 5.5vw;
+  color: white;
+}
+.fch_shengji .header div:nth-of-type(3) img {
+  width: 6vw;
+}
+.fch_shengji .my {
+  margin: 3vw 3vw;
+  font-size: 4vw;
+  color: #5E5E5E;
+}
+.fch_shengji .my span {
+  color: #F26B27;
+}
+.fch_shengji .vip {
+  padding: 3vw 2vw;
+}
+.fch_shengji .vip a {
+  text-decoration: none;
+}
+.fch_shengji .vip img {
+  width: 28vw;
+}
+.fch_shengji .vip > div {
+  border: 1px solid #F0C7B2;
+  padding-bottom: 3vw;
+  margin: 0 1vw;
+  background: linear-gradient(#fff, #FEFEF3);
+}
+.fch_shengji .vip > div p {
+  font-size: 4vw;
+  color: #5E5E5E;
+  margin: 3vw;
+}
+.fch_shengji .vip > div a {
+  font-size: 4vw;
+  color: #5E5E5E;
+  margin: 3vw 3vw;
+}
+.fch_shengji .vip > div a span {
+  color: #F26B27;
+}
+.fch_shengji .dianhua {
+  text-align: center;
+}
+.fch_shengji .dianhua p {
+  margin: 5vw 0;
+  font-size: 4vw;
+}
+.fch_shengji .dianhua p:nth-of-type(1) {
+  color: #CE161D;
+}
+.fch_shengji .dianhua p:nth-of-type(1) span {
+  color: #B7AEAA;
+}
+.fch_shengji .dianhua p:nth-of-type(2) {
+  color: #CE161D;
+}
+
+/*# sourceMappingURL=shengji.css.map */

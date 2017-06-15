@@ -1,0 +1,73 @@
+.fch_shengji{
+  .header{
+    background:#C8161D;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:3vw 4vw;
+    div:nth-of-type(2){
+      font-size:5.5vw;
+      color:white;
+    }
+    div:nth-of-type(3){
+      img{
+        width:6vw;
+      }
+    }
+  }
+
+  .my{
+    margin:3vw 3vw;
+    font-size:4vw;
+    color:#5E5E5E;
+    span{
+      color:#F26B27;
+    }
+  }
+
+  .vip{
+    padding:3vw 2vw;
+    a{
+      text-decoration:none;
+    }
+    img{
+      width:28vw;
+    }
+    >div{
+      border:1px solid #F0C7B2;
+      padding-bottom:3vw;
+      margin:0 1vw;
+      background:linear-gradient(#fff,#FEFEF3);
+      p{
+        font-size:4vw;
+        color:#5E5E5E;
+        margin:3vw;
+      }
+      a{
+        font-size:4vw;
+        color:#5E5E5E;
+        margin:3vw 3vw;
+        span{
+          color:#F26B27;
+        }
+      }
+    }
+  }
+
+  .dianhua{
+    text-align:center;
+    p{
+      margin:5vw 0;
+      font-size:4vw;
+    }
+    p:nth-of-type(1){
+      color:#CE161D;
+      span{
+        color:#B7AEAA;
+      }
+    }
+    p:nth-of-type(2){
+      color:#CE161D;
+    }
+  }
+}

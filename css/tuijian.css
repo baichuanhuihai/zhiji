@@ -1,0 +1,79 @@
+.fch_tuijian .header {
+  background: #C8161D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vw 4vw;
+}
+.fch_tuijian .header div:nth-of-type(2) img {
+  width: 16vw;
+}
+.fch_tuijian .header div:nth-of-type(3) img {
+  width: 6vw;
+}
+.fch_tuijian .banner img {
+  width: 100%;
+  display: block;
+}
+.fch_tuijian .jieshao {
+  border-bottom: 10px #F4F4F4 solid;
+}
+.fch_tuijian .jieshao > div {
+  padding: 3vw 3vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+.fch_tuijian .jieshao > div > div:nth-of-type(1) {
+  width: 26%;
+}
+.fch_tuijian .jieshao > div > div:nth-of-type(1) > img {
+  width: 100%;
+  margin-right: 3vw;
+}
+.fch_tuijian .jieshao > div > div:nth-of-type(2) {
+  width: 70%;
+}
+.fch_tuijian .jieshao > div > div:nth-of-type(2) h4 {
+  color: #646464;
+  font-size: 4vw;
+  border-bottom: 1px solid #E9E9E9;
+  margin-bottom: 4vw;
+  font-weight: 900;
+}
+.fch_tuijian .jieshao > div > div:nth-of-type(2) > span {
+  background: #A9A9A9;
+  color: white;
+  font-size: 4vw;
+  padding: 1vw;
+  border-radius: 4vw;
+}
+.fch_tuijian .jieshao > div > div:nth-of-type(2) > div {
+  margin-top: 3vw;
+}
+.fch_tuijian .jieshao > div > div:nth-of-type(2) > div img {
+  width: 26vw;
+}
+.fch_tuijian .jieshao > p {
+  padding: 0 4vw;
+  color: #9C9C9C;
+  font-size: 4vw;
+  line-height: 7vw;
+}
+.fch_tuijian .dianhua {
+  text-align: center;
+}
+.fch_tuijian .dianhua p {
+  margin: 5vw 0;
+  font-size: 4vw;
+}
+.fch_tuijian .dianhua p:nth-of-type(1) {
+  color: #646464;
+}
+.fch_tuijian .dianhua p:nth-of-type(1) span {
+  color: #B7AEAA;
+}
+.fch_tuijian .dianhua p:nth-of-type(2) {
+  color: #CE161D;
+}
+
+/*# sourceMappingURL=tuijian.css.map */

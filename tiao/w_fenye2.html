@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/w_fenye2.css"/>
+		
+		<title></title>
+	</head>
+	<body>
+		<div class="w_fenye2_content" ng-controller="fenye2">
+			<div class="w_fenye2_header">
+					搜索
+			</div>
+			<ul>
+				<li ng-repeat="a1 in fenye2_1">
+					<p>
+						<img src="{{a1.img}}"/>
+						{{a1.cont}}
+					</p>
+					<p>
+						<img src="../img1/z_map010.png"/>
+					</p>
+				</li>
+			</ul>
+			<ul>
+				<li ng-repeat="a1 in fenye2_2">
+					<p>
+						<img src="{{a1.img}}"/>
+						{{a1.cont}}
+					</p>
+					<p>
+						<img src="../img1/z_map010.png"/>
+					</p>
+				</li>
+			</ul>
+			<ul>
+				<li ng-repeat="a1 in fenye2_3">
+					<p>
+						<img src="{{a1.img}}"/>
+						{{a1.cont}}
+						<s>{{a1.cont1}}</s>
+					</p>
+					<p>
+						<img src="../img1/z_map010.png"/>
+					</p>
+				</li>
+			</ul>
+		
+			<div>
+				<p class="fen1">
+				
+					客服电话：400-668-1039<span>(8:30 - 22:30)</span>
+				</p>
+				
+				<a class="fen2" href="#">
+					添加知己网到主屏
+				</a>
+			</div>
+		
+		
+		</div>
+	</body>
+</html>

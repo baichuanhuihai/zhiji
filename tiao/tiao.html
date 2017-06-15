@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <!--视口  设备宽度  初始缩放比例  最小缩放比例  最大缩放比例  用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <!--优先使用IE最新版本和chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--禁止浏览器自动的识别  电话号码-meail-->
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <!--是否启用Web全屏-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!--设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/luyou.css">
+    <script type="text/javascript" src="../js/angular-1.4.6.min.js"></script>
+    <script type="text/javascript" src="../js/angular-route.min.js"></script>
+</head>
+<body>
+<div class="f_luyou_content" ng-view>
+
+</div>
+<div class="f_luyou_footer">
+    <div><a href="#aaa"><img src="../img/tj_on.png" alt=""></a></div>
+    <div><a href="#bbb"><img src="../img/ss.png" alt=""></a></div>
+    <div><a href="#ccc"><img src="../img/ly.png" alt=""></a></div>
+    <div><a href="#ddd"><img src="../img/sj.png" alt=""></a></div>
+    <div><a href="#eee"><img src="../img/da.png" alt=""></a></div>
+</div>
+</body>
+<script type="text/javascript">
+    var app = angular.module("myApp",["ngRoute"]);
+    app.config(["$routeProvider",function($routeProvider){
+        $routeProvider.when("/aaa",{
+            templateUrl:"tuijian.html",
+            controller:"tuijian"
+        }).when("/bbb",{
+            templateUrl:"w_fenye2.html",
+            controller:"fenye2"
+        }).when("/ccc",{
+            templateUrl:"liuyan.html",
+            controller:"liuyan"
+        }).when("/ddd",{
+            templateUrl:"shengji.html",
+            controller:"shengji"
+        }).when("/eee",{
+            templateUrl:"w_fenye5.html"
+        }).otherwise({redirectTo:"/aaa"})
+    }]);
+    var f_luyou_img_arr = [
+            "../img/tj.png",
+            "../img/ss.png",
+            "../img/ly.png",
+            "../img/sj.png",
+            "../img/da.png"
+    ];
+    var f_luyou_img_list = [
+        "../img/tj_on.png",
+        "../img/ss_on.png",
+        "../img/ly_on.png",
+        "../img/sj_on.png",
+        "../img/da_on.png"
+    ];
+    var f_luyou_footer = document.getElementsByClassName("f_luyou_footer")[0];
+    var f_luyou_footer_img = f_luyou_footer.getElementsByTagName("img");
+    for(var i=0;i<f_luyou_footer_img.length;i++){
+        f_luyou_footer_img[i].index = i;
+        f_luyou_footer_img[i].onclick = function(){
+            for(var j=0;j<f_luyou_footer_img.length;j++){
+                f_luyou_footer_img[j].src = f_luyou_img_arr[j];
+            }
+            f_luyou_footer_img[this.index].src = f_luyou_img_list[this.index];
+        }
+    }
+</script>
+<script type="text/javascript" src="../js/tuijian.js"></script>
+<script type="text/javascript" src="../js/liuyan.js"></script>
+<script type="text/javascript" src="../js/shengji.js"></script>
+<script type="text/javascript" src="../js/ngRoute.js"></script>
+</html>
